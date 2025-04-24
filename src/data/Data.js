@@ -1,4 +1,4 @@
-export const Dog = {
+export const data = {
     "message": {
         "affenpinscher": [],
         "african": [],

@@ -7,8 +7,10 @@ const Features = () => {
     
     let [dogImage, setDogImage] = useState(null)
 
+    
+
   useEffect(() => {
-    fetch("https://dog.ceo/api/breeds/image/random/6")
+    fetch("https://dog.ceo/api/breeds/image/random/9")
     .then(response => response.json())
     .then(data => setDogImage(data.message))
   },[])

@@ -1,0 +1,32 @@
+/* Home.css */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background: #3a7bd5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3a6073, #3a7bd5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3a6073, #3a7bd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+img:hover {
+    transform: scale(1.05);
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+
+}
+p{
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin: 0 0 20px;
+    color: #faf6f6;
+}
+strong{
+    color: #ffffff;
+}
+strong:hover{
+    color: #f7bc4f;
+    text-decoration: underline;
+    
+}
